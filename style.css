@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Saira+Condensed&display=swap');
+body {
+  background-image: url('https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1549&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0px -200px;
+}
+h1 {
+  font-family: Saira Condensed;
+  font-size: 70px;
+  text-align: center;
+
+  background: -webkit-linear-gradient(90deg, #b2dfdb, #000, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container {
+  position: absolute;
+  top: 180px;
+  width: 90%;
+  margin-left: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.01);
+  backdrop-filter: blur(20px);
+  font-family: Saira Condensed;
+  font-size: 24px;
+}
+
+.btn-cont {
+  display: flex;
+
+  justify-content: space-evenly;
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  border: 0.2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 20px rgba(43, 42, 42, 0.5);
+  margin-top: 20px;
+  border-radius: 40px;
+  margin-right: 20px;
+  align-items: center;
+  transform: translate(70px, -50%);
+}
+.btn-cont button {
+  outline: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: transparent;
+  background: #dbdbdb;
+  color: #fff;
+  font-size: 27px;
+}
+
+table {
+  margin: 20px 0px;
+  width: 100%;
+}
+
+td {
+  height: 100px;
+  text-align: center;
+
+  width: 200px;
+  border-top: 1px solid #d2d8ccbd;
+}
+img {
+  width: 200px;
+  height: 170px;
+  border-radius: 15px;
+}
+.minus:hover {
+  background-color: #ef5350;
+  cursor: pointer;
+}
+.plus:hover {
+  background-color: #66bb6a;
+  cursor: pointer;
+}
+.del button {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: large;
+  color: #424242;
+}
+.delete:hover {
+  color: #b71c1c;
+}
+.check {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
